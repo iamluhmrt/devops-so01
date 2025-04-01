@@ -25,6 +25,8 @@ venv.bak/
 nosetests.xml
 coverage.xml
 *.hypothesis/
+fastapi-env/
+
 
 # Installer logs
 pip-log.txt
