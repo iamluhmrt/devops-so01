@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.c
+*.cpp
+*.h
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.idea/
+.mypy_cache/
+.pyre/
+.pytest_cache/
+.coverage
+*.coverage
+nosetests.xml
+coverage.xml
+*.hypothesis/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+*.manifest
+*.spec
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+
+# VS Code settings
+.vscode/
+
+# Docker
+*.dockerfile
+Dockerfile*
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
