@@ -1,0 +1,21 @@
+name: Continuous Delivery - Workflow
+on:
+  push:
+    branches:
+      - main # or any other branch
+
+jobs:
+  deliver:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      - name: Simulating Continuous Delivery
+        uses: actions/upload-artifact@v4
+        with:
+          name: zip-project.zip
+          path: |
+            '**.py'
+            test_main.py
+            README.md
