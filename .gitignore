@@ -46,10 +46,6 @@ ehthumbs.db
 # VS Code settings
 .vscode/
 
-# Docker
-*.dockerfile
-Dockerfile*
-
 # Jupyter Notebook
 .ipynb_checkpoints
 
