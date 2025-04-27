@@ -9,4 +9,4 @@ RUN pip install "fastapi[standard]"
 COPY . .
 
 EXPOSE 80
-CMD [ "fastapi", "run", "main.py", "--port", "80" ]
+CMD [ "fastapi", "run", "src/main.py", "--port", "80" ]
