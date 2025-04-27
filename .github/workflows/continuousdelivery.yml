@@ -17,7 +17,7 @@ jobs:
           name: zip-project.zip
           path: |
             **.py
-            test_main.py
+            learn_main.py
             README.md
 
   deploy:
