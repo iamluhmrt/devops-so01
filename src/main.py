@@ -7,6 +7,7 @@ app = FastAPI()
 # Secret number randomly generated
 secret_number = random.randint(1, 100)
 
+# Enter point
 @app.get("/")
 def read_root():
     return {"message": "Welcome to the guessing game! Try to guess the number between 1 and 100."}
